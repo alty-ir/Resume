@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.4, 27 July 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options.
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{008080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+% \addbibresource{sample.bib}
+
+\begin{document}
+\photo{2.5cm}{2}
+\name{Ali Tabesh}
+\tagline{Backend Developer}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{ali.tabesh76@gmail.com}
+  \email{hi@alitabesh.ir}
+  % \phone{+98}
+  \location{Tehran, Iran}
+  \homepage{https://alitabesh.ir}
+  % \twitter{@alty_ir}
+  \linkedin{https://linkedin.com/in/alitabesh}
+  \github{https://github.com/alty-ir} 
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+\cvevent{IT Consultant (Full-time)}{Gardesh International Ltd. (Nirutavan Holding Subsidiary)}{May 2021 - Dec 2022}{Tehran, Iran}
+\begin{itemize}
+\item Working with aero space domain and developing a new web application for them.
+\item Implementing a new ticketing system for them. Also Integrating with other airline systems.
+\item Excellent knowledge in Hybrid as well cross platform technology and PWA along with NodeJS, Express, PM2, Nginx and PostgresSQL.
+\end{itemize}
+\cvevent{Web Developer \& IT Manager (Part-time)}{VCVEnglish Educational Group}{Aug 2016 - Nov 2022}{Tehran, Iran}
+\begin{itemize}
+\item Working with .Net ecosystem and such architecture like webapp, MVC and core webapi.
+\item Integrate hybrid as well PWA app in version 3 by using NuxtJS/VueJS frameworks.
+\item Working with JQuery along with Bootstrap in first two versions.
+\item Work with SQL Server Engine and windows Devops.
+% \item Having sound knowledge in bootstrap with material design UI frameworks.
+\item Overall 50000+ claim agents use VCV web applications that I developed individually.
+\item Developing 3 versions of the application in 6 years.
+\end{itemize}
+\cvevent{Full-Stack Developer (Freelance)}{Nexco Group}{Oct 2016 - Ongoing}{Remote}
+\begin{itemize}
+\item Developing a new creative web and mobile apps with collabration with other freelancers.
+\item Actively adopt new mobile and web technology as per market needs.
+\item Overall 15+ projects done in 7 years.
+\item Having a excellent team handling capability.
+\item SEO friendly website development. 
+\item Developed targeted advertisement in order to use user's search queries and show them related ads.
+\item Actively adopt new mobile technology like, flutter, ionic and cordova too.
+
+\end{itemize}
+\cvsection{So far Project Experience }
+
+\cvachievement{\faNewspaperO}{Online classified advertising Website (https://kichichi.co)}{It's a classified advertising website that is build with VueJS/NuxtJS at FrontEnd and Django/PostgresSQL in Backend. }
+% \divider
+\cvachievement{\faConnectdevelop}{Integrated platform for sending content to Social Media (https://github.com/API-Mate)}{ It's an open-source project where we can send content to websites like facebook, twitter, linkedin, discord, etc. It's a web app that is build with serverless methodology.}
+% \divider
+\cvachievement{\faBriefcase}{Bussiness Portfolio Website (https://nirutavan.com)}{It's actually well known company in Iran that done many great project. I developed their portfolio website using VueJS/NuxtJS and bootstrap all by myself. It's a responsive website that is fully compatible with all devices, and also SEO friendly and fast loading.}
+
+% \cvsection{Hobbies}
+
+% \cvachievement{\faSuitcase}{Adventurist}{Love to travel and explore new places}
+% \divider
+% \cvachievement{\faNewspaperO}{Tracking}{Curious to know about new technology and new trends}
+% \divider
+% \cvachievement{\faConnectdevelop}{Playing Games}{Excited to play each and every outdoor or mental games}
+\begin{fullwidth}
+ 
+\end{fullwidth}
+\divider
+\begin{itemize}
+\item Updated on January 2023 - version 2.0
+\end{itemize}
+
+\clearpage
+
+%\href{https://github.com/alty-ir/resume/releases}{version 2.0 - January 2023}
+
+\end{document}
