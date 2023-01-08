@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1672936866 "main.bcf" "main.bbl" "main" 1672937829 0
-  "main.bcf" 1672937829 106738 fbd82a7bf08e168a8bcae25846f3ef5b "pdflatex"
+["biber main"] 1672936866 "main.bcf" "main.bbl" "main" 1673186082 0
+  "main.bcf" 1673186081 106738 fbd82a7bf08e168a8bcae25846f3ef5b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1672937825 "f:/Projects/Resume/Tex/main.tex" "main.pdf" "main" 1672937829 0
+["pdflatex"] 1673186076 "f:/Projects/Resume/Tex/main.tex" "main.pdf" "main" 1673186082 0
   "2.jpg" 1637771997 25978 db690717ca7d18a30491f4df7391c40d ""
   "C:/Users/alita/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1672867682 155501 69c64e18682da23b3f73def6a45c9d78 ""
   "C:/Users/alita/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1672867504 10788009 dd33c12cd96f822606cca38435f3554c ""
@@ -170,11 +170,11 @@
   "C:/Users/alita/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/alita/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "altacv.cls" 1672934003 9461 9b75b924361dc5076aa29ba97623f129 ""
-  "f:/Projects/Resume/Tex/main.tex" 1672937823 6704 219d1386c6f7e29c0f1477a7af028739 ""
-  "main.aux" 1672937829 142 8b58bf859a0d985e32a947963c9f2f8e "pdflatex"
+  "f:/Projects/Resume/Tex/main.tex" 1673186074 6741 69eb0f45100c401960def0d9e6d98a8b ""
+  "main.aux" 1673186081 142 8b58bf859a0d985e32a947963c9f2f8e "pdflatex"
   "main.bbl" 1672936871 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.run.xml" 1672937829 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
-  "main.tex" 1672937823 6704 219d1386c6f7e29c0f1477a7af028739 ""
+  "main.run.xml" 1673186081 2230 63b3b7999850b4e84c799d52ce555e2c "pdflatex"
+  "main.tex" 1673186074 6741 69eb0f45100c401960def0d9e6d98a8b ""
   "page1sidebar.tex" 1672937211 1886 fe8f4a135450c41f296a49798eee27dc ""
   (generated)
   "main.aux"
