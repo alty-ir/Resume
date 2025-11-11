@@ -1,6 +1,6 @@
 # Resume
 
-Ali Tabesh (Backend Software Engineer) resume in LaTeX using AltaCV template.
+Ali Tabesh (Software Engineer) resume in LaTeX using AltaCV template.
 
 More about me at [https://alitabesh.dev](https://alitabesh.dev)
 
